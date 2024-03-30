@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    function checkForIframe(nbrAttempts = 0, maxAttempts = 10) {
+    function checkForIframe(nbrAttempts = 0, maxAttempts = 20) {
         const flipBookContainer = document.querySelector('.flip-book-container');
 
         if (flipBookContainer && nbrAttempts < maxAttempts) {
